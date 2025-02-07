@@ -6,6 +6,10 @@
     <title>旺柴玩美股🐶</title>
     <style>
         body {
+            background: url('pics/bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            background-blend-mode: overlay;
+            background-color: rgba(255, 255, 255, 0.8);
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             background-color: #f5f5f5;
             color: #333;
@@ -41,24 +45,17 @@
             max-width: 50%;
             border-radius: 10px;
         }
-        .info-box {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            width: 250px;
-            height: 250px;
-            border: 2px solid #007bff;
-            border-radius: 10px;
-            padding: 20px;
-            background-color: #eef;
-        }
         .info-box a {
             text-decoration: none;
             color: #007bff;
-            font-size: 20px;
+            font-size: 24px;
             margin: 10px 0;
             font-weight: bold;
+            transition: transform 0.2s, color 0.2s;
+        }
+        .info-box a:hover {
+            transform: scale(1.1);
+            color: #ff4500;
         }
         .hero-text {
             max-width: 40%;
@@ -87,11 +84,11 @@
     
     <div class="content">
         <img src="pics/evid_1.jpg" alt="大瓜1">
-        <div style="margin-left: -50px;">
-    <a href="#who" style="font-size: 24px;">我们的专业团队🐶</a><br>
-    <a href="#stories" style="font-size: 24px;">我们的精心故事🍉</a><br>
-    <a href="#qa" style="font-size: 24px;">我们的忏悔声明😭</a>
-</div>
+        <div style="margin-left: -50px;" class="info-box">
+            <a href="team.html">我们的专业团队🐶</a><br>
+            <a href="story.html">我们的精心故事🍉</a><br>
+            <a href="statement.html">我们的忏悔声明😭</a>
+        </div>
         <div class="hero-text" style="text-align: left; margin-left: -50px;">
             <p>⚠️拒绝抄袭<br>⚠️拒绝欺骗<br>📈提升炒股知识<br>❤️迎接清醒人生</p>
         </div>
@@ -99,8 +96,8 @@
     
     <div class="share-buttons">
         <h2>让更多人看到真相<span style="color: red;">！！！</span></h2>
-        <a href="https://twitter.com/share?text=来看看旺柴的“原创”艺术！&url=http://你的GitHubPage网址" target="_blank">分享到 Twitter</a>
-        <a href="https://www.reddit.com/submit?url=http://你的GitHubPage网址&title=旺柴炒美股抄袭证据" target="_blank">分享到 Reddit</a>
+        <a href="https://twitter.com/share?text=来看看旺柴的“原创”艺术！&url=http://tradelikeinstitution.github.io" target="_blank">分享到 Twitter</a>
+        <a href="https://www.reddit.com/submit?url=http://tradelikeinstitution.github.io&title=旺柴炒美股抄袭证据" target="_blank">分享到 Reddit</a>
     </div>
 </body>
 </html>
